@@ -1,0 +1,74 @@
+*{
+    font-size: 15px;
+    /*margin: 47px;*/
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.sew{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgb(65, 60, 60);
+    display: flex;
+    margin: 0px 270px;
+    width: 1000px;
+    height: 450px;
+}
+.b h1{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.btn{
+    color: rgb(63, 54, 54);
+    font-size: 20px;
+    align-content: center;
+    width: 140px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(20, 20, 170);
+}
+.rew{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.b{
+    align-items: flex-start;
+    display: flex;
+    margin-left: 30px;  
+    flex-direction: column;
+    text-align: flex-start;
+}
+.first{
+    display: flex;
+}
+.input[type="text"],
+.input[type="password"],
+.input[type="email"]
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px black;
+    border: none;
+    
+}
+@media (max-width:600px){
+    .b{
+        font-size: 10px;
+    }
+    .first{
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+    .sew{
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+    .rew img{
+        width: 100px;
+    }
+}
